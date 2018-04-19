@@ -10,7 +10,7 @@ class Shoe
     if BRANDS.include? @brand
       BRANDS
     else
-      BRANDS << brand
+      BRANDS << brand     #works with @brand and brand i.e. local variable or the argument
     end
     
   end
